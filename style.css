@@ -1,0 +1,200 @@
+/* =================
+        all
+================= */
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-image: url("image/background.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+
+/* =================
+      header
+================= */
+header {
+    width: 100vw;
+    height: 70vh;
+}
+
+/* logo */
+.header-logo {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 100%;
+}
+
+/* menu */
+.header-menu {
+    display: none;
+    width: 70vw;
+    height: 70vw;
+    border-radius: 100% 0 0 0;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.header-menu ul {
+    width: 100%;
+    height: 100%;
+    position: relative:
+}
+
+.header-menu li {
+    list-style: none;
+}
+
+.header-menu li:first-child {
+    margin-top: 30%;
+    margin-left: 40%;
+}
+
+.header-menu li:nth-child(2) {
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+.header-menu li:last-child {
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+.header-menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* icon */
+.header-menu-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    right: 5vw;
+    bottom: 5vw;
+}
+
+.header-menu-icon-inner div {
+    width: 35px;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    margin: 8px 0;
+}
+
+
+/* =================
+       main
+================= */
+.top-title {
+    margin-bottom: 5vw;
+}
+
+/* about */
+.about {
+    margin-bottom: 15vh;
+    padding: 10vh 10vw;
+    background-color: rgb(0, 0, 0);
+}
+
+.about-text p {
+    word-wrap: break-word;
+    margin-bottom: 1vh;
+}
+
+
+
+/* article */
+.article {
+    margin-bottom: 15vh;
+    padding: 10vh 10vw;
+    background-color: rgb(0, 0, 0);
+}
+
+.article-list {
+    margin: auto;
+}
+
+.article-column {
+    margin-bottom: 8vh;
+}
+
+.article-image {
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+.article-image img {
+    width: 100%;
+}
+
+.article-title,
+.article-description,
+.article-tags,
+.article-date {
+    margin-bottom: 1vh;
+    padding: 0 3vw;
+}
+
+.article-tags ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.article-tags li {
+    margin-left: 2vw;
+}
+
+.article-date {
+    text-align: right;
+}
+
+.view-more {
+    text-align: center;
+}
+
+.view-more a {
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 3px;
+}
+
+/* =================
+       footer
+================= */
+footer {
+    background-color: rgb(0, 0, 0);
+    padding: 3vh 10vw;
+}
+
+.sns ul {
+    list-style: none;
+    display: flex;
+}
+
+.sns li {
+    margin-left: 2vw;
+}
+
+.copyright {
+    margin-top: 3vh;
+    text-align: center;
+}
