@@ -90,6 +90,7 @@ header {
     position: fixed;
     right: 5vw;
     bottom: 5vw;
+    transition: 0.5s;
 }
 
 .header-menu-icon-inner div {
@@ -97,6 +98,22 @@ header {
     height: 1px;
     background-color: rgb(255, 255, 255);
     margin: 8px 0;
+    transition: all 1s ease-out;
+}
+
+.bar-1.open {
+    -webkit-transform: translateY(10px) rotate(-405deg);
+    transform: translateY(10px) rotate(-405deg);
+}
+
+.bar-2.open {
+    opacity: 0;
+    transform:translateX(100px);
+}
+
+.bar-3.open {
+    -webkit-transform: translateY(-8px) rotate(405deg);
+    transform: translateY(-8px) rotate(405deg);
 }
 
 
