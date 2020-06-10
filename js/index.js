@@ -15,8 +15,3 @@ $(".header-menu-icon").on("click", function() {
     }
 });
 
-
-
-// .header-menu li:first-child
-// .header-menu li:nth-child(2)
-// .header-menu li:last-child

@@ -131,11 +131,12 @@ header {
     background-color: rgb(0, 0, 0);
 }
 
+/* 一旦不要
 .about-text p {
     word-wrap: break-word;
     margin-bottom: 1vh;
 }
-
+*/
 
 
 /* article */
